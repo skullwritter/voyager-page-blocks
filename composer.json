@@ -1,5 +1,5 @@
 {
-    "name": "pvtl/voyager-page-blocks",
+    "name": "skullwritter/voyager-page-blocks",
     "description": "Ahoy! - A package to implement page blocks into Voyager",
     "keywords": [
         "laravel",
@@ -26,19 +26,19 @@
     "autoload": {
         "classmap": [],
         "psr-4": {
-            "Pvtl\\VoyagerPageBlocks\\": "src/"
+            "skullwritter\\VoyagerPageBlocks\\": "src/"
         }
     },
     "autoload-dev": {
         "classmap": [],
         "psr-4": {
-            "Pvtl\\VoyagerPageBlocks\\Tests\\": "tests/"
+            "skullwritter\\VoyagerPageBlocks\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pvtl\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider"
+                "skullwritter\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider"
             ]
         }
     },
