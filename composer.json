@@ -23,19 +23,19 @@
     "autoload": {
         "classmap": [],
         "psr-4": {
-            "pvtl\\VoyagerPageBlocks\\": "src/"
+            "Pvtl\\VoyagerPageBlocks\\": "src/"
         }
     },
     "autoload-dev": {
         "classmap": [],
         "psr-4": {
-            "pvtl\\VoyagerPageBlocks\\Tests\\": "tests/"
+            "Pvtl\\VoyagerPageBlocks\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "pvtl\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider"
+                "Pvtl\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider"
             ]
         }
     },
